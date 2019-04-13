@@ -4,8 +4,8 @@
 
 ### Install
 
-```
-$ yarn add viee
+```sh
+yarn add viee
 ```
 
 ### Usage
@@ -14,9 +14,12 @@ $ yarn add viee
 import viee from 'viee';
 
 console.log(viee('Xin chào Việt Nam!'));
-// Xin chao Viet Nam!
+```
+
+```sh
+Output should be 'Xin chao Viet Nam!'
 ```
 
 ### License
 
-![](https://img.shields.io/github/license/cuongw/viee.svg?style=flat-square)
+![License](https://img.shields.io/github/license/cuongw/viee.svg?style=flat-square)
