@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "description": "🇻🇳 Chuyển đổi Tiếng Việt có dấu sang không dấu.",
   "main": "./lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "git@github.com:cuongw/viee.git",
-  "author": "Cuong Duy Nguyen <ndc07.it@gmail.com>",
+  "keywords": ["tiengviet", "tieng-viet", "viee", "typescript"],
+  "author": "Cuong Duy Nguyen",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
   "devDependencies": {
     "typescript": "^3.4.3"
   }
