@@ -1,6 +1,6 @@
 {
   "name": "viee",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "🇻🇳 Chuyển đổi Tiếng Việt có dấu sang không dấu.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

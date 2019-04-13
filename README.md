@@ -2,7 +2,7 @@
 
 🇻🇳 Chuyển đổi Tiếng Việt có dấu sang không dấu.
 
-### Install
+### Installation
 
 ```sh
 yarn add viee
