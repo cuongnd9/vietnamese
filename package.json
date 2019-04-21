@@ -1,7 +1,7 @@
 {
   "name": "viee",
   "version": "0.2.0",
-  "description": "🇻🇳 Chuyển đổi Tiếng Việt có dấu sang không dấu.",
+  "description": "🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:cuongw/viee.git",
