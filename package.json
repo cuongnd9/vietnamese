@@ -1,6 +1,6 @@
 {
   "name": "viee",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "🇻🇳 Chuyển đổi Tiếng Việt có dấu sang không dấu.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,12 +13,29 @@
   ],
   "author": "Cuong Duy Nguyen",
   "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "start": "node ./lib/index.js",
+    "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "prepare": "npm run build"
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "all-contributors-cli": "^6.3.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.3"
   }
 }
