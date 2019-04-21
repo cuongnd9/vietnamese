@@ -1,9 +1,9 @@
-type Converter = {
+interface IConverter {
   from: RegExp;
   to: string;
 };
 
-const converters: Converter[] = [
+const converters: IConverter[] = [
   {
     from: /à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,
     to: 'a',
@@ -63,9 +63,9 @@ const converters: Converter[] = [
 ];
 
 export default function viee(text: string): string {
-  for (let convert of converters) {
+  for (const convert of converters) {
     text = text.replace(convert.from, convert.to);
   }
 
   return text;
-}
+};
