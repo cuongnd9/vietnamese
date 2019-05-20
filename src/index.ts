@@ -1,7 +1,7 @@
 interface IConverter {
   from: RegExp;
   to: string;
-};
+}
 
 const converters: IConverter[] = [
   {
@@ -62,10 +62,12 @@ const converters: IConverter[] = [
   },
 ];
 
-export default function viee(text: string): string {
+function viee(text: string): string {
   for (const convert of converters) {
     text = text.replace(convert.from, convert.to);
   }
 
   return text;
-};
+}
+
+export = viee;
