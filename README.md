@@ -1,6 +1,6 @@
 # viee
 
-> 🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.
+> ✂️🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.com/cuongw/viee.svg?branch=master)](https://travis-ci.com/cuongw/viee)
@@ -20,9 +20,17 @@ npm install viee --save
 
 ## Usage
 
+**For ES6 or ESNext**
 ```javascript
 import viee from 'viee';
+```
 
+**For CommonJS**
+```javascript
+const viee = require('viee');
+```
+
+```javascript
 console.log(viee('Xin chào Việt Nam!'));
 ```
 
