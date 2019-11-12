@@ -1,4 +1,4 @@
-import viee from '../src';
+import { viee } from '../src';
 
 test('Thinid Test', () => {
   expect(viee('Xin chào Việt Nam!')).toEqual('Xin chao Viet Nam!');

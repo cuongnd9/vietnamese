@@ -22,12 +22,12 @@ npm install viee --save
 
 **For ES6 or ESNext**
 ```javascript
-import viee from 'viee';
+import { viee } from 'viee';
 ```
 
 **For CommonJS**
 ```javascript
-const viee = require('viee');
+const { viee } = require('viee');
 ```
 
 ```javascript
