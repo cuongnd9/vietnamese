@@ -1,9 +1,9 @@
-interface IConverter {
+interface Converter {
   from: RegExp;
   to: string;
 }
 
-const converters: IConverter[] = [
+const converters: Converter[] = [
   {
     from: /à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,
     to: 'a',
@@ -62,12 +62,10 @@ const converters: IConverter[] = [
   },
 ];
 
-function viee(text: string): string {
+export function viee(text: string): string {
   for (const convert of converters) {
     text = text.replace(convert.from, convert.to);
   }
 
   return text;
 }
-
-export = viee;
