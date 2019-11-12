@@ -1,9 +1,9 @@
-interface Converter {
+interface IConverter {
   from: RegExp;
   to: string;
 }
 
-const converters: Converter[] = [
+const converters: IConverter[] = [
   {
     from: /à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,
     to: 'a',
