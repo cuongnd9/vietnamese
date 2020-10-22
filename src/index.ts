@@ -62,7 +62,7 @@ const converters: IConverter[] = [
   },
 ];
 
-export function viee(text: string): string {
+export function vietnamese(text: string): string {
   for (const convert of converters) {
     text = text.replace(convert.from, convert.to);
   }
