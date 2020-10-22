@@ -1,17 +1,17 @@
 {
-  "name": "viee",
-  "version": "0.5.1",
+  "name": "vietnamese-js",
+  "version": "0.1.0",
   "description": "🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "repository": "git@github.com:103cuong/viee.git",
+  "repository": "git@github.com:103cuong/vietnamese.git",
   "keywords": [
     "tiengviet",
     "tieng-viet",
-    "viee",
+    "vietnamese",
     "typescript"
   ],
-  "author": "Cuong Duy Nguyen",
+  "author": "Cuong Tran",
   "license": "MIT",
   "files": [
     "lib/**/*"
