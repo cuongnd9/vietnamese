@@ -4,8 +4,8 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.com/103cuong/vietnamese.svg?branch=master)](https://travis-ci.com/103cuong/vietnamese)
-![npm](https://img.shields.io/npm/v/vietnamese.svg)
-![david](https://img.shields.io/david/103cuong/vietnamese.svg)
+![npm](https://img.shields.io/npm/v/vietnamese-js.svg)
+![david](https://img.shields.io/david/103cuong/vietnamese-js.svg)
 [![GitHub](https://img.shields.io/github/license/103cuong/vietnamese.svg)](https://github.com/103cuong/vietnamese/blob/master/LICENSE)
 
 vietnamese giúp chuyển đổi Tiếng Việt có dấu sang không dấu. Dễ sử dụng, hỗ trợ cả JavaScript và TypeScript.
@@ -13,21 +13,21 @@ vietnamese giúp chuyển đổi Tiếng Việt có dấu sang không dấu. D�
 ## Installation
 
 ```sh
-yarn add vietnamese
+yarn add vietnamese-js
 # or
-npm install vietnamese --save
+npm install vietnamese-js --save
 ```
 
 ## Usage
 
 **For ES6 or ESNext**
 ```javascript
-import { vietnamese } from 'vietnamese';
+import { vietnamese } from 'vietnamese-js';
 ```
 
 **For CommonJS**
 ```javascript
-const { vietnamese } = require('vietnamese');
+const { vietnamese } = require('vietnamese-js');
 ```
 
 ```javascript
