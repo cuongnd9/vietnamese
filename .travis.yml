@@ -1,18 +1,20 @@
 language: node_js
 
 node_js:
-  - 'node'
+  - '14'
+  - '12'
   - '10'
   - '8'
 
 branches:
   only:
-  - master
+  - main
 
 install:
-  - npm uninstall typescript --no-save
-  - npm uninstall tslint --no-save
-  - npm install
+  - yarn
+  
+script:
+  - yarn test
 
 cache:
   directories:

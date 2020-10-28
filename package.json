@@ -1,17 +1,19 @@
 {
   "name": "vietnamese-js",
-  "version": "0.1.1",
-  "description": "🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.",
+  "version": "1.0.0",
+  "description": "✂️🇻🇳 A helpful tool for removing Vietnamese accents.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:103cuong/vietnamese.git",
   "keywords": [
     "tiengviet",
     "tieng-viet",
+    "Việt Nam",
     "vietnamese",
-    "typescript"
+    "vietnamese-accents",
+    "103cuong"
   ],
-  "author": "Cuong Tran",
+  "author": "Duy Cuong Tran",
   "license": "MIT",
   "files": [
     "lib/**/*"
