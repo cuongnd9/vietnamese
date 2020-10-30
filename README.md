@@ -18,6 +18,10 @@ console.log(vietnamese('Xin chào Việt Nam!'));
 Output should be 'Xin chao Viet Nam!'
 ```
 
+## You might also like
+
+- [tiengviet](https://github.com/tvc12/tiengviet) - Convert vietnamese sign to unsign easily like eat 🥞🥞🥞.
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
